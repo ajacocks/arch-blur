@@ -1,16 +1,9 @@
 
-# Arch-Silence GRUB2 theme
+# Arch-blur GRUB2 theme
 
-My flat GRUB2 theme.
+A GRUB2 theme, based on Arch-silence, that changes the fonts and logo, and adds a background 75% black filter. The default background is from GNOME, with thanks.
 
 <img src="./preview.png" width="400">
-
-## Font
-
-The font in the boot menu can't be changed because of GRUB.
-
-GRUB does have a conversion tool from ttf to it's own format but this format encodes each pixel with 1 bit
-which makes it completely useless since there's practically no font that is readable in such a low bit-depth.
 
 ## License
 
@@ -18,4 +11,6 @@ If not explicitly stated otherwise all the files in this project are distributed
 
 ## Author
 
-Filippo Ghibellini
+Alexander Jacocks
+
+based on Arch-silence, by Filippo Ghibellini
